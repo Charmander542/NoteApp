@@ -1,0 +1,199 @@
+{
+  "id": "example-notebook-001",
+  "title": "NotesApp Example Notebook",
+  "description": "A demonstration of NotesApp features and capabilities",
+  "createdDate": "2024-01-01T00:00:00.000Z",
+  "modifiedDate": "2024-01-01T00:00:00.000Z",
+  "tags": ["example", "demo", "features"],
+  "pages": [
+    {
+      "id": "page-001",
+      "title": "Welcome to NotesApp",
+      "size": {
+        "width": 800,
+        "height": 600
+      },
+      "backgroundColor": "#ffffff",
+      "objects": [
+        {
+          "id": "text-001",
+          "type": 0,
+          "bounds": {
+            "x": 50,
+            "y": 50,
+            "width": 700,
+            "height": 100
+          },
+          "layer": 0,
+          "visible": true,
+          "content": "# Welcome to NotesApp\n\nThis is a **powerful** note-taking application built with C++ and Qt 6.",
+          "markdownMode": true,
+          "font": {
+            "family": "Arial",
+            "size": 24,
+            "bold": true,
+            "italic": false
+          },
+          "textColor": "#000000",
+          "backgroundColor": "#ffffff",
+          "alignment": 1,
+          "lineSpacing": 0
+        },
+        {
+          "id": "text-002",
+          "type": 0,
+          "bounds": {
+            "x": 50,
+            "y": 200,
+            "width": 700,
+            "height": 150
+          },
+          "layer": 0,
+          "visible": true,
+          "content": "## Features\n\n- **Markdown Support**: Full markdown rendering with live preview\n- **Freeform Drawing**: Pen input with multiple drawing modes\n- **Object Manipulation**: Drag, resize, and layer objects freely\n- **SQLite Storage**: Robust data persistence with auto-save\n- **Modern UI**: Dark theme with professional appearance",
+          "markdownMode": true,
+          "font": {
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false
+          },
+          "textColor": "#333333",
+          "backgroundColor": "#ffffff",
+          "alignment": 0,
+          "lineSpacing": 0
+        },
+        {
+          "id": "drawing-001",
+          "type": 1,
+          "bounds": {
+            "x": 50,
+            "y": 400,
+            "width": 300,
+            "height": 150
+          },
+          "layer": 0,
+          "visible": true,
+          "strokes": [
+            {
+              "mode": 0,
+              "timestamp": 1704067200000,
+              "path": "M 60 450 L 80 420 L 100 450 L 120 420 L 140 450 L 160 420 L 180 450 L 200 420 L 220 450 L 240 420 L 260 450 L 280 420 L 300 450",
+              "pen": {
+                "color": "#0066cc",
+                "width": 3,
+                "style": 1,
+                "capStyle": 16,
+                "joinStyle": 128
+              }
+            },
+            {
+              "mode": 1,
+              "timestamp": 1704067201000,
+              "path": "M 60 480 L 80 460 L 100 480 L 120 460 L 140 480 L 160 460 L 180 480 L 200 460 L 220 480 L 240 460 L 260 480 L 280 460 L 300 480",
+              "pen": {
+                "color": "#ffff00",
+                "width": 8,
+                "style": 1,
+                "capStyle": 16,
+                "joinStyle": 128
+              }
+            }
+          ],
+          "currentMode": 0,
+          "currentPen": {
+            "color": "#0066cc",
+            "width": 3,
+            "style": 1,
+            "capStyle": 16,
+            "joinStyle": 128
+          }
+        },
+        {
+          "id": "text-003",
+          "type": 0,
+          "bounds": {
+            "x": 400,
+            "y": 400,
+            "width": 350,
+            "height": 150
+          },
+          "layer": 0,
+          "visible": true,
+          "content": "## Drawing Example\n\nThis page demonstrates the drawing capabilities:\n\n- **Blue Line**: Drawn with the pen tool\n- **Yellow Line**: Highlighted with the highlighter tool\n\nYou can:\n- Select and move individual strokes\n- Change colors and pen width\n- Use different drawing modes\n- Erase parts of your drawings",
+          "markdownMode": true,
+          "font": {
+            "family": "Arial",
+            "size": 12,
+            "bold": false,
+            "italic": false
+          },
+          "textColor": "#333333",
+          "backgroundColor": "#ffffff",
+          "alignment": 0,
+          "lineSpacing": 0
+        }
+      ]
+    },
+    {
+      "id": "page-002",
+      "title": "Getting Started",
+      "size": {
+        "width": 800,
+        "height": 600
+      },
+      "backgroundColor": "#ffffff",
+      "objects": [
+        {
+          "id": "text-004",
+          "type": 0,
+          "bounds": {
+            "x": 50,
+            "y": 50,
+            "width": 700,
+            "height": 200
+          },
+          "layer": 0,
+          "visible": true,
+          "content": "# Getting Started\n\n## Creating Your First Note\n\n1. **New Document**: Press `Ctrl+N` or File → New Document\n2. **Add Text**: Click the Text tool (T) and click on the page\n3. **Start Drawing**: Select the Pen tool (P) and draw freely\n4. **Save Your Work**: Press `Ctrl+S` to save\n\n## Keyboard Shortcuts\n\n| Action | Shortcut |\n|--------|----------|\n| New Document | `Ctrl+N` |\n| Save Document | `Ctrl+S` |\n| Add Text | `Ctrl+T` |\n| Add Drawing | `Ctrl+D` |\n| Select Tool | `S` |\n| Pen Tool | `P` |\n| Zoom In | `Ctrl++` |\n| Zoom Out | `Ctrl+-` |",
+          "markdownMode": true,
+          "font": {
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false
+          },
+          "textColor": "#000000",
+          "backgroundColor": "#ffffff",
+          "alignment": 0,
+          "lineSpacing": 0
+        },
+        {
+          "id": "text-005",
+          "type": 0,
+          "bounds": {
+            "x": 50,
+            "y": 300,
+            "width": 700,
+            "height": 250
+          },
+          "layer": 0,
+          "visible": true,
+          "content": "## Tips and Tricks\n\n### Object Manipulation\n- **Select Multiple**: Hold `Ctrl` and click objects\n- **Move Objects**: Drag selected objects around the page\n- **Resize**: Use the corner handles when an object is selected\n- **Layer Order**: Use the Object Properties panel to change layer order\n\n### Drawing Tips\n- **Smooth Lines**: The pen tool automatically smooths your strokes\n- **Change Colors**: Use the color picker in the toolbar\n- **Adjust Width**: Use the width slider for different line thicknesses\n- **Erase Mistakes**: Switch to the eraser tool to remove strokes\n\n### Text Editing\n- **Markdown**: Use markdown syntax for rich formatting\n- **Live Preview**: See your markdown rendered in real-time\n- **Font Options**: Change fonts, sizes, and colors in the properties panel\n- **Alignment**: Left, center, or right align your text blocks",
+          "markdownMode": true,
+          "font": {
+            "family": "Arial",
+            "size": 12,
+            "bold": false,
+            "italic": false
+          },
+          "textColor": "#333333",
+          "backgroundColor": "#ffffff",
+          "alignment": 0,
+          "lineSpacing": 0
+        }
+      ]
+    }
+  ],
+  "links": {}
+}
